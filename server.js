@@ -8,7 +8,7 @@ dotenv.config()
 
 const app = Fastify({ logger: true })
 
-// app.register(mongoConnector)
+app.register(mongoConnector)
 // app.register(routes)
 
 const start = async () => {
