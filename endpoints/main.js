@@ -7,7 +7,7 @@ export const routes = async (app, options) => {
     })
 
     /**
-     * Default endpoint for getting user information, 7 day history
+     * Endpoint to have the 7-day history of a user
      */
     app.get('/user/:id', async function (request, reply) {
         const date = {
