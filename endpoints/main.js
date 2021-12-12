@@ -1,5 +1,5 @@
-import { dateSubtract } from "../lib/helper.js"
-import { getHistory } from "../lib/query.js"
+import { dateSubtract } from '../lib/helper.js'
+import { getHistory } from '../lib/query.js'
 
 export const routes = async (app, options) => {
     app.get('/', async function (request, reply) {
